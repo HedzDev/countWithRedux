@@ -7,11 +7,11 @@ function Home() {
       <Image src="/logo.png" alt="Logo" width={500} height={200} />
 
       <div className={styles.counterContainer}>
-        <button className={styles.decrementBtn} id="decrementBtn">
+        <button className={styles.decrementBtn}>
           -
         </button>
         <span className={styles.counter}>0</span>
-        <button className={styles.incrementBtn} id="incrementBtn">
+        <button className={styles.incrementBtn}>
           +
         </button>
       </div>
